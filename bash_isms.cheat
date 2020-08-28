@@ -1,0 +1,4 @@
+# Run command in subdirectories
+for DS_DIR in $(ls -d */); do cd $DS_DIR; <run_command>; cd ..; done
+
+$ run_command: ls

@@ -1,0 +1,16 @@
+% tmux, cli
+
+# New tmux session
+tmux new -s <session_name>
+
+# List active tmux sessions
+tmux ls
+
+# Attach to a tmux session
+tmux attach -t <session_name>
+
+# Kill a running tmux session
+tmux kill-session -t <session_name>
+
+# Create a new tmuxinator project
+tmuxinator new <project_name>

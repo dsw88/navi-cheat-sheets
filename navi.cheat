@@ -1,0 +1,7 @@
+% navi, cheat.sh, tldr
+
+# Look up a cheat from cheat.sh
+navi --cheatsh <query>
+
+# Look up a cheat from tldr
+navi --tldr <query>

@@ -1,0 +1,16 @@
+% python, conda
+
+# Create a conda environment
+conda create --name <environment_name> python=3.7.3
+
+# Remove a conda environment
+conda env remove --name <environment_name>
+
+# Activate a conda environment
+conda activate <environment_name>
+
+# Deactivate a conda environment
+conda deactivate
+
+# List all conda environments
+conda env list

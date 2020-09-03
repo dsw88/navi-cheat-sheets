@@ -1,0 +1,4 @@
+% eks, aws
+
+# Update EKS kubeconfig file
+aws eks update-kubeconfig --region us-west-2 --name <cluster_name>

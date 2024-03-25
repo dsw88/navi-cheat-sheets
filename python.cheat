@@ -1,0 +1,12 @@
+# Create new venv
+python -m venv .venv
+
+# Delete venv
+rm -rf ./.venv/
+
+# Activate venv
+. ./.venv/bin/activate
+
+# Deactivate venv
+deactivate
+
